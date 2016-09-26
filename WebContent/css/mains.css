@@ -89,10 +89,9 @@ a{
     height: 18px;
     border: 0;
     padding: 10px 0 10px 0px;
-    width: 310px;
+    width: 349px;
     font-size: 14px;
-    left: 38px;
-    position: relative;
+    text-indent: 52px;
 }
 .login-btn a{
     border: 1px solid #e85356;
