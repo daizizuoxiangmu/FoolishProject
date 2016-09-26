@@ -1,0 +1,107 @@
+*{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Microsoft YaHei';
+}
+body{
+    background: #fff;
+}
+a{
+    color: black;
+}
+.header{
+    background: #F1F1F1;
+    height: 40px;
+    display: flex;
+    color:black;
+    justify-content: center;
+}
+.warp{
+    width: 1170px;   
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;   
+}
+
+.warp-right{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+
+
+
+
+
+.login{
+    color: #bdbdbd;
+    padding-left: 14px;
+}
+.login:hover{
+    color: #000000;
+}
+#login-warp{
+    width: 350px;
+    height: 368px;
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+    padding: 20px;
+    border: 2px solid silver
+}
+.login-choose{
+    height: 40px;
+    width: 50%;
+    font-size: 18px;
+    text-align: center;
+    border-bottom: 1px solid #f4f4f4;
+    position: absolute;
+    background: #fff;
+    display: block;
+}
+.le{
+    left: 0
+}
+.ri{
+    right: 0
+}
+#login-in{
+   margin-top: 95px;
+   height:150px; 
+}
+.login-on{
+     border: 1px solid #bdbdbd;
+     height: 38px;
+     margin: 25px 0 25px 0;
+}
+.login-lab{
+    position: absolute;
+    z-index: 3;
+    width: 38px;
+    height: 38px;
+    border-right: 1px solid #bdbdbd;
+    background: url(../icon/icon.png) no-repeat;
+}
+.itxt{
+    line-height: 18px;
+    height: 18px;
+    border: 0;
+    padding: 10px 0 10px 0px;
+    width: 310px;
+    font-size: 14px;
+    left: 38px;
+    position: relative;
+}
+.login-btn a{
+    border: 1px solid #e85356;
+    display: block;
+    width: 350px;
+    background: #e4393c;
+    height: 31px;
+    line-height: 31px;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+}
