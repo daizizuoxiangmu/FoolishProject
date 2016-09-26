@@ -1,13 +1,14 @@
-<!DOCTYPE html>
+<%@ page language="java" contentType="text/html; charset=utf-8"
+    pageEncoding="utf-8"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
-   <head>
-      <title>电商</title>
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-      <link href="css/mains.css" rel="stylesheet">
-   </head>
-   <body>
-       <div class="header">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>LoginPage</title>
+<link href="css/mains.css" rel="stylesheet">
+</head>
+<body>
+<div class="header">
            <div class="warp">
                <div class="warp-left">
                    <a href="#" class="icon"></a>
@@ -32,10 +33,5 @@
            </div>
            <div class="login-btn"><a href = "#">登录</a></div>
        </div>
-
-    
-
-       
-   </body>
- 
+</body>
 </html>
