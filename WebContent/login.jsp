@@ -26,13 +26,14 @@
            <form class="login-in">    
                <div class="login-on"><label class="login-lab"></label><input type="text" class="itxt" name="username" placeholder="请输入用户名"></div>
                <div class="login-on"><label class="login-lab"></label><input type="text" class="itxt" name="password" placeholder="请输入密码"></div>
+               <input type="button"  class="login-btn"  value="登录">
            </form>
            <form class="login-in hide" >
                <div class="login-on"><label class="login-lab"></label><input type="text" class="itxt" name="username" placeholder="取个昵称吧"></div>
                <div class="login-on"><label class="login-lab"></label><input type="text" class="itxt" name="password" placeholder="输入你的密码"></div>
                <div class="login-on"><label class="login-lab"></label><input type="text" class="itxt" name="password" placeholder="重复你的密码"></div>
-           </form>
-           <div><a  id="login-btn" href = "#">登录</a></div>
+               <input type="button"  class="login-btn" value="注册">
+           </form>        
        </div>
 </body>
 <script src="js/main.js"></script>
