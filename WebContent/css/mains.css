@@ -35,11 +35,11 @@ a{
 
 
 
-.login{
+.login-head{
     color: #bdbdbd;
     padding-left: 14px;
 }
-.login:hover{
+.login-head:hover{
     color: #000000;
 }
 #login-warp{
@@ -49,7 +49,8 @@ a{
     position: absolute;
     top: 0; left: 0; bottom: 0; right: 0;
     padding: 20px;
-    border: 2px solid silver
+    border: 2px solid silver;
+    background: #fff
 }
 .login-choose{
     height: 40px;
@@ -59,7 +60,8 @@ a{
     border-bottom: 1px solid #f4f4f4;
     position: absolute;
     background: #fff;
-    display: block;
+    display: block; 
+    cursor: pointer
 }
 .le{
     left: 0
@@ -67,14 +69,14 @@ a{
 .ri{
     right: 0
 }
-#login-in{
-   margin-top: 95px;
-   height:150px; 
+.login-in{
+   margin:75px 0 45px 0;
+    
 }
 .login-on{
      border: 1px solid #bdbdbd;
      height: 38px;
-     margin: 25px 0 25px 0;
+     margin: 30px 0 30px 0;
 }
 .login-lab{
     position: absolute;
@@ -93,7 +95,7 @@ a{
     font-size: 14px;
     text-indent: 52px;
 }
-.login-btn a{
+#login-btn{
     border: 1px solid #e85356;
     display: block;
     width: 350px;
@@ -103,4 +105,7 @@ a{
     color: #fff;
     font-size: 20px;
     text-align: center;
+}
+.hide{
+    display: none;
 }
