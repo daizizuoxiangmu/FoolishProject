@@ -11,6 +11,15 @@ body{
 a{
     color: black;
 }
+.hide{
+    display: none;
+}
+.show{
+    display: block;
+}
+
+
+/* */
 .header{
     background: #F1F1F1;
     height: 40px;
@@ -30,32 +39,33 @@ a{
     align-items: center;
     font-size: 14px;
 }
-
-
-
-
-
 .login-head{
-    color: #bdbdbd;
+    color: #000000;
     padding-left: 14px;
 }
 .login-head:hover{
-    color: #000000;
+    color:#e4393c;
 }
+/* */
+
+/* */
+
 #login-warp{
     width: 350px;
     height: 368px;
-    margin: auto;
     position: absolute;
+    margin:  auto;
     top: 0; left: 0; bottom: 0; right: 0;
-    padding: 20px;
+    padding: 0 20px 20px 20px;
     border: 2px solid silver;
-    background: #fff
+    background: #fff;
+    display: none;
 }
 .login-choose{
     height: 40px;
     width: 50%;
     font-size: 18px;
+    padding-top: 20px;
     text-align: center;
     border-bottom: 1px solid #f4f4f4;
     position: absolute;
@@ -68,6 +78,13 @@ a{
 }
 .ri{
     right: 0
+}
+.close{
+    width: 22px;
+    height: 22px;
+    position: absolute;
+    background: #e4393c;
+    cursor: pointer
 }
 .login-in{
    margin:75px 0 45px 0;
@@ -91,21 +108,21 @@ a{
     height: 18px;
     border: 0;
     padding: 10px 0 10px 0px;
-    width: 349px;
+    width: 348px;
     font-size: 14px;
     text-indent: 52px;
 }
 .login-btn{
     border: 1px solid #e85356;
     display: block;
-    width: 350px;
+    width: 348px;
     background: #e4393c;
     height: 31px;
     line-height: 31px;
     color: #fff;
     font-size: 20px;
     text-align: center;
+    cursor: pointer;
+    border-radius: 5px;
 }
-.hide{
-    display: none;
-}
+/* */
