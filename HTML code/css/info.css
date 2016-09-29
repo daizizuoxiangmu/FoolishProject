@@ -1,0 +1,83 @@
+.neck{
+    width: 100%;
+    height: 110px;
+    border-bottom: 2px solid #e4393c
+}
+
+
+.goods-link{
+    width: 100%;
+    height: 43px;
+    background: #F1F1F1;
+    margin: 0 auto;
+}
+
+
+.goods-main{
+
+}
+.goods-info{
+    width: 1210px;
+    margin: 0 auto;
+    display: flex
+   
+}
+
+
+.goods-pic{
+    width: 450px;
+    margin: 0 20px 20px 20px;
+    padding: 20px;
+}
+.goods-pic .img-main{
+    border: 1px solid #F1F1F1;
+    
+}
+.goods-pic .img-ul li{
+    width: 54px;
+    height: 54px;
+    display: inline-block;
+    margin: 14px;
+}
+.goods-pic .img-ul .goods-sp{
+    
+    border: 2px solid #fff;
+}
+.goods-pic .img-ul .goods-sp-hover{
+   
+    border: 2px solid #e4393c;
+}
+
+
+
+.goods-pir{
+   width: 648px;
+   margin: 30px 0 0 20px;
+}
+.goods-pir p,span{
+    font: 700 16px Arial,"microsoft yahei";
+    color: #666;
+    padding: 10px;
+    line-height: 28px;
+    margin-bottom: 5px;
+}
+.goods-pir span{
+    color: #e4393c;
+    font-size: 24px;
+    font-weight: 300
+}
+.buy-btn{
+    height: 46px;
+    width: 144px;
+    line-height: 46px;
+    font-size: 18px;
+    border: 1px solid #e85356;
+    display: block;
+    background: #e4393c;
+    font-family: "microsoft yahei";
+    font-weight: 700;
+    color: white;
+    margin: 40px 10px;
+    text-align: center;
+    border-radius: 5px;
+}
