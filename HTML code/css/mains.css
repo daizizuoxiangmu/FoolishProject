@@ -133,3 +133,24 @@ a{
     
 }
 /* */
+.neck{
+    width: 100%;
+    height: 110px;
+    border-bottom: 2px solid #e4393c
+}
+/**/
+.main{
+    display: flex;
+    width: 1210px;
+    margin: 0 auto;
+ 
+}
+.main-ul li{
+ width: 100px;
+    
+    background: red;
+    
+}
+.main-img{
+    margin: 0 auto;
+}
